@@ -282,3 +282,97 @@ a {
   font-size: 1.6rem;
   color: #afafaf;
 }
+
+/* About area */
+.two-columns-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tart,
+.fluits {
+  width: 70%;
+}
+
+.top-tart,
+.top-fluits {
+  text-align: center;
+}
+
+.about-us,
+.read-more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.welcome {
+  font-weight: 100;
+}
+
+.about-paragraph {
+  font-size: 1.4rem;
+  color: #afafaf;
+  line-height: 1.5;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+  z-index: 1;
+  margin-bottom: 4rem;
+}
+
+.btn:hover {
+  color: #c59d5f;
+}
+
+.third-grid {
+  margin-top: 10rem;
+}
+
+/* team area*/
+.team {
+  width: 100%;
+  margin-top: 10rem;
+  background-color: #f9f9f9;
+  padding-bottom: 10rem;
+}
+
+.four-columns-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5rem;
+  margin-top: 10rem;
+}
+
+.name {
+  font-family: "Cormorant Garamond";
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.position {
+  text-align: center;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 100;
+  color: #afafaf;
+}
+
+.description-paragraph {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+  color: #afafaf;
+  text-align: center;
+  padding-bottom: 5rem;
+}
