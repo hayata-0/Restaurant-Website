@@ -36,6 +36,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- animation on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- style.css -->
     <link rel="stylesheet" href="./css/style.css" />
     <title>Restaurant Website</title>
@@ -100,7 +102,12 @@
           <h2 class="section-title">What We Can Offer</h2>
           <h3 class="section-subtitle">from our hearts</h3>
           <div class="three-columns-grid">
-            <div class="grid-item">
+            <div
+              class="grid-item"
+              data-aos="fade-right"
+              data-aos-offset="400"
+              data-aos-duration="1000"
+            >
               <img src="./images/57.jpg" alt="" width="200" />
               <h3 class="sub-title"><strong>Always</strong> Fresh</h3>
               <p class="paragraph">
@@ -108,7 +115,12 @@
               </p>
             </div>
 
-            <div class="grid-item">
+            <div
+              class="grid-item"
+              data-aos="fade-up"
+              data-aos-offset="400"
+              data-aos-duration="1000"
+            >
               <img src="./images/57.jpg" alt="" width="200" />
               <h3 class="sub-title"><strong>Eco</strong> Products</h3>
               <p class="paragraph">
@@ -116,7 +128,12 @@
               </p>
             </div>
 
-            <div class="grid-item">
+            <div
+              class="grid-item"
+              data-aos="fade-left"
+              data-aos-offset="400"
+              data-aos-duration="1000"
+            >
               <img src="./images/57.jpg" alt="" width="200" />
               <h3 class="sub-title"><strong>Healthy</strong> Deserts</h3>
               <p class="paragraph">
@@ -130,11 +147,21 @@
       <section class="about" id="about">
         <div class="container-fluid">
           <div class="two-columns-grid">
-            <div class="top-tart">
+            <div
+              class="top-tart"
+              data-aos="fade-right"
+              data-aos-offset="400"
+              data-aos-duration="1000"
+            >
               <img src="./images/47.jpg" alt="Tart" class="tart" />
             </div>
 
-            <div class="about-us">
+            <div
+              class="about-us"
+              data-aos="fade-left"
+              data-aos-offset="400"
+              data-aos-duration="1000"
+            >
               <h2 class="section-title welcome">Welcome to La Baie</h2>
               <p class="about-paragraph">
                 私たちは日々の生活の一部である「食」を大切にするためにスタッフ一同心がけております。
@@ -144,7 +171,12 @@
           </div>
 
           <div class="two-columns-grid third-grid">
-            <div class="read-more">
+            <div
+              class="read-more"
+              data-aos="fade-right"
+              data-aos-offset="400"
+              data-aos-duration="1000"
+            >
               <h2 class="section-title welcome">Introducing the chef</h2>
               <p class="about-paragraph">
                 フランスで五年間の修行を受け、現在La
@@ -153,7 +185,12 @@
               <a href="#" class="btn">Read More</a>
             </div>
 
-            <div class="top-fruits">
+            <div
+              class="top-fruits"
+              data-aos="fade-left"
+              data-aos-offset="400"
+              data-aos-duration="1000"
+            >
               <img src="./images/44.jpg" alt="" class="fruits" />
             </div>
           </div>
@@ -394,6 +431,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/app.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
