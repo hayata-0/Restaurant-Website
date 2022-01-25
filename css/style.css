@@ -557,3 +557,80 @@ select:focus {
   font-size: 1.2rem;
   text-align: center;
 }
+
+@media only screen and (max-width: 1024px) {
+  .nav-list {
+    width: 80%;
+  }
+
+  .four-columns-grid {
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+
+  .three-columns-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .two-columns-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .customers {
+    padding-top: 20rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .premium {
+    width: 20%;
+  }
+
+  .title {
+    font-size: 6rem;
+  }
+
+  .paragraph {
+    margin-bottom: 3rem;
+    margin-top: -3rem;
+  }
+
+  .four-columns-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .slick-prev::before,
+  .slick-next::before {
+    display: none;
+  }
+
+  .customers {
+    margin-top: 45rem;
+  }
+
+  .book-card {
+    width: 100%;
+  }
+
+  .book-title {
+    font-size: 2rem;
+  }
+
+  .book-card .section-subtitle {
+    font-size: 1rem;
+  }
+
+  .three-columns-grid {
+    grid-gap: 0;
+  }
+
+  .footer {
+    margin-top: 40rem;
+  }
+
+  .copyright {
+    font-size: 1rem;
+  }
+}
