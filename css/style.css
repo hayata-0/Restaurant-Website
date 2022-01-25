@@ -580,6 +580,15 @@ select:focus {
   .customers {
     padding-top: 20rem;
   }
+
+  .slick-prev::before,
+  .slick-next::before {
+    display: none;
+  }
+
+  .footer {
+    margin-top: 40rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -601,11 +610,6 @@ select:focus {
     text-align: center;
   }
 
-  .slick-prev::before,
-  .slick-next::before {
-    display: none;
-  }
-
   .customers {
     margin-top: 45rem;
   }
@@ -624,10 +628,6 @@ select:focus {
 
   .three-columns-grid {
     grid-gap: 0;
-  }
-
-  .footer {
-    margin-top: 40rem;
   }
 
   .copyright {
