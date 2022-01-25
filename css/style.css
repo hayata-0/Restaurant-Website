@@ -376,3 +376,75 @@ a {
   text-align: center;
   padding-bottom: 5rem;
 }
+
+/* menu area*/
+.menu {
+  height: 100vh;
+}
+
+.menu-header {
+  height: 50vh;
+  width: 100%;
+  background: url("../images/group-of-people-making-toast.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.menu-card {
+  background-color: #fff;
+  width: 80%;
+  margin: -30rem auto;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding-bottom: 5rem;
+}
+
+.menu-card-header {
+  text-align: center;
+}
+
+.fish {
+  margin-top: 5rem;
+}
+
+.menu-title {
+  color: #333;
+  margin-top: -4rem;
+  margin-bottom: 1rem;
+}
+
+.starters h2,
+.mains h2 {
+  color: #ff7417;
+  text-align: center;
+  font-family: "Cormorant Garamond";
+  font-size: 3rem;
+  margin-top: 5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.starter-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px dashed #afafaf;
+  margin-bottom: 1.5rem;
+}
+
+.starter-header h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-right: 2rem;
+}
+
+.starter-header h4 {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.menu-paragraph {
+  font-size: 1.5rem;
+  color: #afafaf;
+  margin-bottom: 2rem;
+  text-align: center;
+}
