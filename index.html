@@ -4,7 +4,396 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font-awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Slick Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- style.css -->
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Restaurant Website</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="nav">
+          <a href="index.html" class="logo">
+            <img src="./images/main_logo_white.png" alt="logo" />
+          </a>
+
+          <div class="nav__button">
+            <span class="nav__icon"></span>
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#team" class="nav-link">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#menu" class="nav-link">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a href="#reservation" class="nav-link">Reservation</a>
+            </li>
+          </ul>
+
+          <ul class="icons">
+            <li class="icon"><i class="fas fa-search"></i></li>
+            <li class="icon"><i class="fab fa-twitter"></i></li>
+            <li class="icon"><i class="fab fa-facebook"></i></li>
+            <li class="icon"><i class="fab fa-instagram"></i></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="hero" id="hero">
+        <div class="container">
+          <div class="premium-container">
+            <img src="./images/logo_main_02.png" alt="Premium" />
+            <h3 class="quality">Grande Maison</h3>
+          </div>
+
+          <div class="restaurant-title">
+            <h1 class="title">La Baie</h1>
+          </div>
+        </div>
+
+        <a href="#" class="go-top"><i class="fas fa-arrow-up"></i></a>
+      </div>
+
+      <section class="offers">
+        <div class="container">
+          <h2 class="section-title">What We Can Offer</h2>
+          <h3 class="section-subtitle">from our hearts</h3>
+          <div class="three-columns-grid">
+            <div class="grid-item">
+              <img src="./images/57.jpg" alt="" width="200" />
+              <h3 class="sub-title"><strong>Always</strong> Fresh</h3>
+              <p class="paragraph">
+                毎日、健康な毎日を遅れるような野菜を豊富に取り扱っています。
+              </p>
+            </div>
+
+            <div class="grid-item">
+              <img src="./images/57.jpg" alt="" width="200" />
+              <h3 class="sub-title"><strong>Eco</strong> Products</h3>
+              <p class="paragraph">
+                毎日、健康な毎日を遅れるような野菜を豊富に取り扱っています。
+              </p>
+            </div>
+
+            <div class="grid-item">
+              <img src="./images/57.jpg" alt="" width="200" />
+              <h3 class="sub-title"><strong>Healthy</strong> Deserts</h3>
+              <p class="paragraph">
+                毎日、健康な毎日を遅れるような野菜を豊富に取り扱っています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container-fluid">
+          <div class="two-columns-grid">
+            <div class="top-tart">
+              <img src="./images/47.jpg" alt="Tart" class="tart" />
+            </div>
+
+            <div class="about-us">
+              <h2 class="section-title welcome">Welcome to La Baie</h2>
+              <p class="about-paragraph">
+                私たちは日々の生活の一部である「食」を大切にするためにスタッフ一同心がけております。
+              </p>
+              <a href="#" class="btn">About Us</a>
+            </div>
+          </div>
+
+          <div class="two-columns-grid third-grid">
+            <div class="read-more">
+              <h2 class="section-title welcome">Introducing the chef</h2>
+              <p class="about-paragraph">
+                フランスで五年間の修行を受け、現在La
+                Baieでシェフ兼オーナーとしてご活躍
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="top-fruits">
+              <img src="./images/44.jpg" alt="" class="fruits" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="team" id="team">
+        <div class="container">
+          <h2 class="section-title">Our teams</h2>
+          <h3 class="section-subtitle">is the best</h3>
+          <div class="four-columns-grid">
+            <div class="team-member">
+              <img src="./images/27.jpg" alt="" />
+              <h2 class="name">Takayuki Hiromu</h2>
+              <h3 class="position">chef</h3>
+              <p class="description-paragraph">
+                フランスで五年間の修行を受け、現在La
+                Baieでシェフ兼オーナーとしてご活躍
+              </p>
+            </div>
+
+            <div class="team-member">
+              <img src="./images/27.jpg" alt="" />
+              <h2 class="name">Takayuki Hiromu</h2>
+              <h3 class="position">chef</h3>
+              <p class="description-paragraph">
+                フランスで五年間の修行を受け、現在La
+                Baieでシェフ兼オーナーとしてご活躍
+              </p>
+            </div>
+
+            <div class="team-member">
+              <img src="./images/27.jpg" alt="" />
+              <h2 class="name">Takayuki Hiromu</h2>
+              <h3 class="position">chef</h3>
+              <p class="description-paragraph">
+                フランスで五年間の修行を受け、現在La
+                Baieでシェフ兼オーナーとしてご活躍
+              </p>
+            </div>
+
+            <div class="team-member">
+              <img src="./images/27.jpg" alt="" />
+              <h2 class="name">Takayuki Hiromu</h2>
+              <h3 class="position">chef</h3>
+              <p class="description-paragraph">
+                フランスで五年間の修行を受け、現在La
+                Baieでシェフ兼オーナーとしてご活躍
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu" id="menu">
+        <div class="menu-header"></div>
+        <div class="menu-card">
+          <div class="menu-card-header">
+            <img src="./images/fishsteak.png" alt="fishsteak" class="fish" />
+            <h2 class="section-title menu-title">Menu</h2>
+            <h3 class="section-subtitle">Single item menu</h3>
+          </div>
+
+          <div class="two-colums-grid">
+            <div class="starters">
+              <h2>Fish and shellfish</h2>
+              <div class="starter">
+                <div class="starter-header">
+                  <h3>Nevalicco et carpaccio de saumon</h3>
+                  <h4 class="price">¥2000</h4>
+                </div>
+                <p class="menu-paragraph">ネバリッコとサーモンのカルパッチョ</p>
+              </div>
+
+              <div class="starter">
+                <div class="starter-header">
+                  <h3>Caprese de dos de légumes</h3>
+                  <h4 class="price">¥1500</h4>
+                </div>
+                <p class="menu-paragraph">裏野菜のカプレーゼ</p>
+              </div>
+
+              <div class="starter">
+                <div class="starter-header">
+                  <h3>Assortiment de 4 types de prosciutto</h3>
+                  <h4 class="price">¥1200</h4>
+                </div>
+                <p class="menu-paragraph">4種類の生ハム盛り合わせ</p>
+              </div>
+            </div>
+
+            <div class="mains">
+              <h2>Mains</h2>
+              <div class="starter">
+                <div class="starter-header">
+                  <h3>Surlonge de boeuf de Kobe 300g ~</h3>
+                  <h4 class="price">¥9800</h4>
+                </div>
+                <p class="menu-paragraph">神戸牛サーロイン300g〜</p>
+              </div>
+
+              <div class="starter">
+                <div class="starter-header">
+                  <h3>4 sortes de champignons et pâtes à la truffe noire</h3>
+                  <h4 class="price">¥5500</h4>
+                </div>
+                <p class="menu-paragraph">
+                  4種類のキノコと黒トリュフ仕立てパスタ
+                </p>
+              </div>
+
+              <div class="starter">
+                <div class="starter-header">
+                  <h3>
+                    Noix de Saint-Jacques grillées et oursin salé au beurre
+                  </h3>
+                  <h4 class="price">¥4200</h4>
+                </div>
+                <p class="menu-paragraph">ホタテと塩水雲丹のバター焼き</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="customers">
+        <div class="container">
+          <h2 class="section-title">Owner</h2>
+          <h3 class="section-subtitle">La Baie Owner</h3>
+          <div class="carousel">
+            <div>
+              <img src="./images/owner_main.png" alt="owner" class="owner" />
+              <p class="testimonial-paragraph">
+                東京在住の経営者。2021年に創業をスタートする。南青山に位置するこのLa
+                Baie。イタリアンの全てが詰まっているお店で、メインメニューはもちろんのことサイドメニューにも力を入れている。
+              </p>
+              <h2 class="name">Hayata Ohno</h2>
+            </div>
+            <div>
+              <img src="./images/owner_main.png" alt="owner" class="owner" />
+              <p class="testimonial-paragraph">
+                東京在住の経営者。2021年に創業をスタートする。南青山に位置するこのLa
+                Baie。イタリアンの全てが詰まっているお店で、メインメニューはもちろんのことサイドメニューにも力を入れている。
+              </p>
+              <h2 class="name">Hayata Ohno</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="book" id="reservation">
+        <div class="container-fluid">
+          <div class="book-card">
+            <h2 class="section-title book-title">Reserve</h2>
+            <h3 class="section-subtitle">1時間単位での予約が可能です</h3>
+            <div class="two-columns-grid">
+              <div class="form-group">
+                <input type="text" id="first" class="input" placeholder="姓" />
+              </div>
+              <div class="form-group">
+                <input type="text" id="last" class="input" placeholder="名" />
+              </div>
+            </div>
+
+            <div class="two-columns-grid">
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  class="input"
+                  placeholder="メールアドレス"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="phone"
+                  class="input"
+                  placeholder="電話番号"
+                />
+              </div>
+            </div>
+
+            <div class="three-columns-grid">
+              <div class="form-group">
+                <input type="date" id="date" />
+              </div>
+              <div class="form-group">
+                <select name="time" id="time">
+                  <option value="">17:00</option>
+                  <option value="">18:00</option>
+                  <option value="">19:00</option>
+                  <option value="">20:00</option>
+                  <option value="">21:00</option>
+                  <option value="">22:00</option>
+                  <option value="">23:00</option>
+                  <option value="">24:00</option>
+                  <option value="">25:00</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <select name="persons" id="persons">
+                  <option value="">1人</option>
+                  <option value="">2人</option>
+                  <option value="">3人</option>
+                  <option value="">4人</option>
+                  <option value="">5人</option>
+                  <option value="">6人</option>
+                  <option value="">7人</option>
+                  <option value="">8人</option>
+                </select>
+              </div>
+            </div>
+
+            <a href="#" class="btn btn-book">Book Now</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="copyright">&copy; 2022 hayata ohno</p>
+    </footer>
+
+    <!-- Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
+      integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Slick -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
