@@ -1,7 +1,7 @@
 # Restaurant-Website
 (学校の課題)高級レストランをイメージして作成をしたWEBサイト
 
-#今回使用したもの↓
+# 今回使用したもの↓
 
 ## Font
 ### Google Fonts
