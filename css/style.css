@@ -448,3 +448,41 @@ a {
   margin-bottom: 2rem;
   text-align: center;
 }
+
+/* customer area*/
+
+.carousel img {
+  margin: 0 auto;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: slategray;
+  font-size: 3rem;
+}
+
+.slick-prev {
+  transform: translateX(-3rem);
+}
+
+.customers {
+  margin-top: 40rem;
+  padding-bottom: 20rem;
+}
+
+.customers h3 {
+  margin-bottom: 3rem;
+}
+
+.owner {
+  width: 150px;
+  height: 150px;
+}
+
+.testimonial-paragraph {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #afafaf;
+  margin-top: 3rem;
+  text-align: center;
+}

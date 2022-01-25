@@ -11,3 +11,13 @@ navLinks.forEach((link) => {
     body.classList.toggle("open");
   });
 });
+
+// Carousel
+$(document).ready(function () {
+  $(".carousel").slick({
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed: 1000,
+    dots: true,
+  });
+});
