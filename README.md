@@ -17,6 +17,20 @@
 ### Font-awesome CDN
 `https://fontawesome.com/v5.15/how-to-use/customizing-wordpress/snippets/setup-cdn-webfont`
 
+> 使用方法
+
+`<!DOCTYPE html>
+<html>
+<head>
+<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+<title></title>
+</head>
+</html>`
+
+<head>タグにcdnを追加する
+
+
+
 ## slideshow
 ### Slick Carousel
 `https://kenwheeler.github.io/slick/`
