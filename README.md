@@ -19,18 +19,18 @@
 
 > 使用方法
 
-`<link
+###### 手順
+headタグにcdnを追加する
+
+```html
+  <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />`
-
-###### 手順
-headタグにcdnを追加する
-
-
+    />
+```
 
 ## slideshow
 ### Slick Carousel
@@ -46,12 +46,14 @@ headタグにcdnを追加する
 
 > 使用方法
 
-`<script
+###### 手順
+bodyタグの直下に貼り付ける
+
+```html
+  <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
       integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    ></script>`
-    
-###### 手順
-bodyタグの直下に上記を貼り付ける
+    ></script>
+```
