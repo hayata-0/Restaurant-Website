@@ -40,6 +40,23 @@ headタグにcdnを追加する
 ### animation on scroll
 `https://github.com/michalsnik/aos`
 
+> 使用方法
+
+###### 手順
+headタグに追加する:
+
+```html
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+```
+
+bodyタグの直下に貼り付ける:
+```html
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+```
+
 ## Library
 ### jQuery
 `https://jquery.com/`
