@@ -19,13 +19,7 @@
 
 > 使用方法
 
-`<!DOCTYPE html>
-<html>
-<head>
-<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-<title></title>
-</head>
-</html>`
+`<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">`
 
 <head>タグにcdnを追加する
 
