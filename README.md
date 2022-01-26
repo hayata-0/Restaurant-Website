@@ -6,6 +6,10 @@
 ## Font
 ### Google Fonts
 `https://fonts.google.com/`
+> Cormorant Garamond weight400&700
+`https://fonts.google.com/specimen/Cormorant+Garamond?query=Cormorant+Garamond`
+> Montserrat weight400
+`https://fonts.google.com/specimen/Montserrat?query=Montserrat`
 
 ## icon
 ### Font-awesome CDN
