@@ -20,7 +20,7 @@
 > 使用方法
 
 ###### 手順
-headタグにcdnを追加する
+headタグにcdnを追加する:
 
 ```html
   <link
@@ -35,6 +35,41 @@ headタグにcdnを追加する
 ## slideshow
 ### Slick Carousel
 `https://kenwheeler.github.io/slick/`
+
+> 使用方法
+
+###### 手順
+1.HTMLマークアップを設定する:
+```html
+  <div class="your-class">
+    <div>your content</div>
+    <div>your content</div>
+    <div>your content</div>
+  </div>
+```
+2.<head>にslick.cssを追加します:
+
+```html
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  // Add the new slick-theme.css if you want the default styling
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+```
+3.<body>タグ終了手前、jQueryの後にslick.jsを追加します:
+
+```html
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+```
+4.スクリプトファイルまたはインラインスクリプトタグでスライダーを初期化します:
+
+```html
+  $(document).ready(function(){
+    $('.your-class').slick({
+     setting-name: setting-value
+    });
+  });
+```
 
 ## animation
 ### animation on scroll
@@ -64,7 +99,7 @@ bodyタグの直下に貼り付ける:
 > 使用方法
 
 ###### 手順
-bodyタグの直下に貼り付ける
+bodyタグの直下に貼り付ける:
 
 ```html
   <script
