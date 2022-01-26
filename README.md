@@ -21,7 +21,8 @@
 
 `<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">`
 
-<head>タグにcdnを追加する
+###### 手順
+headタグにcdnを追加する
 
 
 
