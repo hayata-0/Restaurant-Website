@@ -41,5 +41,17 @@ headタグにcdnを追加する
 `https://github.com/michalsnik/aos`
 
 ## Library
-### Jquery
+### jQuery
 `https://jquery.com/`
+
+> 使用方法
+
+`<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
+      integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>`
+    
+###### 手順
+bodyタグの直下に上記を貼り付ける
